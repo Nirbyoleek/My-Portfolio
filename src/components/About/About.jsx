@@ -97,7 +97,7 @@ const About = () => {
 						data-aos-anchor=".about__content"
 						data-aos-duration="1000"
 					>
-						Hello, There. I'm Nirbyoleek Das
+						Hello There, I'm Nirbyoleek Das.
 						<br />
 						I am a Full-Stack Web Developer that specializes in building
 						creative and intuitive full stack web applications.
