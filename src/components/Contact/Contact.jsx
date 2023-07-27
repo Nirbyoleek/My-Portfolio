@@ -17,10 +17,10 @@ const Contact = () => {
 
 		emailjs
 			.sendForm(
-				"react-portfolio",
-				"template_4gd7rzp",
+				"my_portfolio",
+				"template_eolpd3v",
 				form.current,
-				"dASa0UBkTt7BX_s5A"
+				"dKwis_E89r_khbUbw"
 			)
 			.then(
 				(result) => {
@@ -57,7 +57,7 @@ const Contact = () => {
 						<h4>Email</h4>
 						<h5>nirbyoleek152001@gmail.com</h5>
 						<a
-							href="mailto:femiladiranerife24@gmail.com"
+							href="mailto:nirbyoleek152001@gmail.com"
 							target="_blank"
 							rel="noreferrer"
 						>
@@ -108,7 +108,7 @@ const Contact = () => {
 				<form ref={form} onSubmit={sendEmail}>
 					<input
 						type="text"
-						name="name"
+						name="user_name"
 						placeholder="Full Name"
 						data-aos="fade-up"
 						data-aos-anchor=".contact__container"
@@ -117,7 +117,7 @@ const Contact = () => {
 					/>
 					<input
 						type="email"
-						name="email"
+						name="user_email"
 						placeholder="Email"
 						data-aos="fade-up"
 						data-aos-anchor=".contact__container"
