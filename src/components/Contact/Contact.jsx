@@ -95,7 +95,7 @@ const Contact = () => {
 						<h4>Instagram</h4>
 						<h5>nirbyoleek_21</h5>
 						<a
-							href="https://ig.me/m/nirbyoleek_21"
+							href="https://ig.me/m/_nirbyoleek_"
 							target="_blank"
 							rel="noreferrer"
 						>
