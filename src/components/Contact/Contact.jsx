@@ -3,7 +3,8 @@ import emailjs from "emailjs-com";
 
 import "./contact.css";
 import { MdOutlineEmail } from "react-icons/md";
-import { BsInstagram, BsLinkedin } from "react-icons/bs";
+import { BsLinkedin } from "react-icons/bs";
+
 import { FaTelegramPlane } from "react-icons/fa";
 
 import { ToastContainer, toast } from "react-toastify";
@@ -84,24 +85,7 @@ const Contact = () => {
 						</a>
 					</article>
 
-					{/* Instagram  */}
-					<article
-						className="contact__option"
-						data-aos="fade-up"
-						data-aos-anchor=".contact__container"
-						data-aos-duration="1000"
-					>
-						<BsInstagram className="contact__option-icon" />
-						<h4>Instagram</h4>
-						<h5>nirbyoleek_21</h5>
-						<a
-							href="https://ig.me/m/_nirbyoleek_"
-							target="_blank"
-							rel="noreferrer"
-						>
-							Send a DM
-						</a>
-					</article>
+					
 				</div>
 
 				{/* END OF CONTACT OPTIONS  */}

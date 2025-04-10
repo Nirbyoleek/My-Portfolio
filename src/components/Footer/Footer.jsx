@@ -1,6 +1,8 @@
 import React from "react";
 import "./footer.css";
-import { BsInstagram, BsLinkedin } from "react-icons/bs";
+import {  BsLinkedin } from "react-icons/bs";
+import { FaGithub } from "react-icons/fa";
+
 import { SiCodewars } from "react-icons/si";
 
 const Footer = () => {
@@ -41,7 +43,7 @@ const Footer = () => {
 					<BsLinkedin />
 				</a>
 				<a href="https://github.com/Nirbyoleek/">
-					<BsInstagram />
+					<FaGithub />
 				</a>
 			</div>
 
