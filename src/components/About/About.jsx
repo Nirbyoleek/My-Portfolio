@@ -65,7 +65,7 @@ const About = () => {
 						>
 							<FaAward className="about__icon" />
 							<h5>Experience</h5>
-							<small>2+ years Experience</small>
+							<small>2+ Years of Professional Experience</small>
 						</article>
 
 						{/* Projects  */}
@@ -97,13 +97,10 @@ const About = () => {
 						data-aos-anchor=".about__content"
 						data-aos-duration="1000"
 					>
-						Hello There, I'm Nirbyoleek Das.
+						Hello,
 						<br />
-						I am a Full-Stack Web Developer that specializes in building
-						creative and intuitive full stack web applications.
-						<br /> Interested in building full stack applications and working on
-						ambitious projects and positive people. Let's build something useful
-						together
+						My name is Nirbyoleek Das, and I am a Full-Stack Web Developer specialising in the creation of innovative and user-centric full-stack web applications.
+						<br /> I am particularly drawn to the opportunity to collaborate on ambitious projects and work with like-minded individuals. I am eager to contribute to the development of valuable and impactful solutions.
 					</p>
 
 					<a
