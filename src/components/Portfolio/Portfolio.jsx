@@ -8,7 +8,7 @@ const Portfolio = () => {
 
 	const projects = [
 		{
-			name: "Chat-App",
+			name: "ChatApp",
 
 			image: require("../../assets/ChatApp.png"),
 			fadeDuration: "1000",
@@ -18,7 +18,7 @@ const Portfolio = () => {
 		},
 
 		{
-			name: "Memories-FullStack",
+			name: "Memories FullStack",
 
 			image: require("../../assets/Memories.jpg"),
 			fadeDuration: "1200",
@@ -27,7 +27,7 @@ const Portfolio = () => {
 			toolsUsed: ["React", "MongoDB", "NodeJs", "Express", "TailwindCSS", ,],
 		},
 		{
-			name: "Weather-app",
+			name: "Weather App",
 			image: require("../../assets/Weather.png"),
 			fadeDuration: "1300",
 			description:
@@ -35,7 +35,7 @@ const Portfolio = () => {
 			toolsUsed: ["NodeJS", "JavaScript", "HTML/CSS", "Express"],
 		},
 		{
-			name: "Todo-App",
+			name: "Todo App",
 
 			image: require("../../assets/Todo.png"),
 			fadeDuration: "1400",
