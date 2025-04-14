@@ -8,6 +8,15 @@ const Portfolio = () => {
 
 	const projects = [
 		{
+			name: "Twitter Clone",
+			image: require("../../assets/Twitter.png"),
+			fadeDuration: "1000",
+			description:
+				"A Twitter clone built with React, Node.js, and MongoDB. It allows users to sign up, log in, and post tweets. It also includes features like liking and retweeting tweets.",
+			toolsUsed: ["React", "Node.js", "MongoDB", "TailwindCSS"],
+			link:"https://twitter-n5yl.onrender.com/"
+		},
+		{
 			name: "ChatApp",
 
 			image: require("../../assets/ChatApp.png"),
@@ -15,6 +24,7 @@ const Portfolio = () => {
 			description:
 				"Your own personalised chat-app. Invite your friends and start a session.",
 			toolsUsed: ["React", "Socket.io", "JavaScript", "Node.js", "Express"],
+			link:"https://chat-app-backend-blond-mu.vercel.app"
 		},
 
 		{
@@ -24,7 +34,8 @@ const Portfolio = () => {
 			fadeDuration: "1200",
 			description:
 				"A functional full-stack site where you can create posts and update them real time in the database.",
-			toolsUsed: ["React", "MongoDB", "NodeJs", "Express", "TailwindCSS", ,],
+			toolsUsed: ["React", "MongoDB", "NodeJs", "Express", "TailwindCSS"],
+			link:"https://memories-app-frontend-one.vercel.app/"
 		},
 		{
 			name: "Weather App",
@@ -33,6 +44,7 @@ const Portfolio = () => {
 			description:
 				"A very useful weather app to show you the weather of any location you want to find. Made using Node js and Express.",
 			toolsUsed: ["NodeJS", "JavaScript", "HTML/CSS", "Express"],
+			link:"https://github.com/Nirbyoleek/Weather-app"
 		},
 		{
 			name: "Todo App",
@@ -41,6 +53,7 @@ const Portfolio = () => {
 			fadeDuration: "1400",
 			description: "Create your Todos in my all new Todo-App",
 			toolsUsed: ["React", "JavaScript"],
+			link:"https://todo-app-nirbyoleek.netlify.app"
 		},
 	];
 
@@ -71,7 +84,7 @@ const Portfolio = () => {
 					({
 						name,
 						image,
-						deployedLink,
+						link,
 						description,
 						toolsUsed,
 						fadeDuration,
@@ -103,11 +116,11 @@ const Portfolio = () => {
 							<div className="portfolio__item-cta">
 								<a
 									className="btn"
-									href={`https://github.com/Nirbyoleek/${name}`}
+									href={link}
 									target="_blank"
 									rel="noreferrer"
 								>
-									GitHub
+									Link
 								</a>
 							</div>
 						</article>
